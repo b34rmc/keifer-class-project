@@ -1,0 +1,30 @@
+.footer {
+  border: 2px solid white;
+  background-color: white;
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company {
+  color: #dc2626;
+  font-weight: bold;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer .footer-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #dc2626;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 5px;
+  margin: 0 5px;
+  border-radius: 4px;
+}
